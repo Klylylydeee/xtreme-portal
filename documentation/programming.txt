@@ -1,0 +1,52 @@
+= WINDOWS COMMAND ============================
+mkdir <folder-name>
+touch <folder-name>/<file-name>
+cd <folder-name>
+cd ./
+clear
+
+= NODE SCRIPT ================================
+
+node <file-name>.js
+
+= GIT ========================================
+
+git init
+git remote add origin https://github.com/Klylylydeee/<PROJECT_NAME>.git
+git branch -M main
+git add *
+git commit -m "initial commit"
+git push -u origin main
+
+git config --global user.email <EMAIL>
+git config --global user.name <GITHUB_USERNAME>
+
+history
+
+= NPM ========================================
+npm init --y
+npm --version
+npm install --global yarn
+npm install --global <dependency>
+npm install --global <dependency> <dependency>
+npm <script>
+
+
+= YARN =======================================
+yarn --version
+yarn init --y
+yarn <script>
+
+= TYPESCRIPT =================================
+npx tsc --init
+
+= NEXT JS ====================================
+npx create-next-app@latest <application-name>
+
+INTEGRATE MUI TO NEXTJS: npx create-next-app@latest xtreme-works-portal
+
+= NEST JS ====================================
+nest new <application-name>
+nest g module <module-name>
+nest g controller <controller-name>
+nest g service <service-name>
